@@ -1,10 +1,6 @@
 <template>
   <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-    </header>
+    <header class="header"></header>
     <slot />
   </div>
 </template>
@@ -22,6 +18,8 @@ body {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
   margin: 0;
+  background-color: black;
+  color: white;
   padding: 0;
   line-height: 1.5;
 }
@@ -43,5 +41,10 @@ body {
 
 .nav__link {
   margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 </style>
