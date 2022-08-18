@@ -8,20 +8,20 @@
     </p>
 
     <div class="links">
-      <a href="https://github.com/fr3h4g" target="_blank" rel="noopener"
-        ><font-awesome :icon="['fab', 'github']" color="white"
+      <a href="https://github.com/fr3h4g" target="_blank" rel="noopener">
+        <font-awesome :icon="['fab', 'github']" size="lg" color="white"
       /></a>
 
       <a href="https://twitter.com/fr3h4g" target="_blank" rel="noopener"
-        ><font-awesome :icon="['fab', 'twitter']" color="white"
+        ><font-awesome :icon="['fab', 'twitter']" size="lg" color="white"
       /></a>
 
       <a href="https://linkedin.com/in/fr3h4g" target="_blank" rel="noopener"
-        ><font-awesome :icon="['fab', 'linkedin']" color="white"
+        ><font-awesome :icon="['fab', 'linkedin']" size="lg" color="white"
       /></a>
 
       <a href="https://facebook.com/fr3h4g" target="_blank" rel="noopener"
-        ><font-awesome :icon="['fab', 'facebook']" color="white"
+        ><font-awesome :icon="['fab', 'facebook']" size="lg" color="white"
       /></a>
     </div>
   </Layout>
