@@ -30,6 +30,6 @@ jobs:
       - name: Run a docker image
         run: |
           docker-compose down
-          docker-compose rm
+          docker-compose rm -f
           docker-compose up -d
 #          docker run -d -p 8180:80 --name website-fr3h4g.eu website-fr3h4g.eu
