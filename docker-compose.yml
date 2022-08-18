@@ -1,6 +1,6 @@
 version: '3'
 services:
   webapp:
-    build: .
+    image: website-fr3h4g.eu
     ports:
       - 8180:80
