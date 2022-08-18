@@ -9,19 +9,35 @@
 
     <div class="links">
       <a href="https://github.com/fr3h4g" target="_blank" rel="noopener">
-        <font-awesome :icon="['fab', 'github']" size="lg" color="white"
+        <font-awesome
+          :icon="['fab', 'github']"
+          size="lg"
+          color="white"
+          class="icon"
       /></a>
 
       <a href="https://twitter.com/fr3h4g" target="_blank" rel="noopener"
-        ><font-awesome :icon="['fab', 'twitter']" size="lg" color="white"
+        ><font-awesome
+          :icon="['fab', 'twitter']"
+          size="lg"
+          color="white"
+          class="icon"
       /></a>
 
       <a href="https://linkedin.com/in/fr3h4g" target="_blank" rel="noopener"
-        ><font-awesome :icon="['fab', 'linkedin']" size="lg" color="white"
+        ><font-awesome
+          :icon="['fab', 'linkedin']"
+          size="lg"
+          color="white"
+          class="icon"
       /></a>
 
       <a href="https://facebook.com/fr3h4g" target="_blank" rel="noopener"
-        ><font-awesome :icon="['fab', 'facebook']" size="lg" color="white"
+        ><font-awesome
+          :icon="['fab', 'facebook']"
+          size="lg"
+          color="white"
+          class="icon"
       /></a>
     </div>
   </Layout>
@@ -39,8 +55,10 @@ export default {
 h1 {
   font-size: 2.5rem;
 }
+.icon {
+  width: 50px;
+}
 .links a {
-  font-size: 50px;
   margin-right: 1.5rem;
 }
 p {
