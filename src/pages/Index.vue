@@ -40,7 +40,7 @@ h1 {
   font-size: 2.5rem;
 }
 .links a {
-  font-size: 2.5rem;
+  font-size: 50px;
   margin-right: 1.5rem;
 }
 p {
