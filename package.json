@@ -6,6 +6,10 @@
     "develop": "gridsome develop",
     "explore": "gridsome explore"
   },
+  "engines": {
+    "npm": ">=8.15.0",
+    "node": "^16.17.0"
+  },
   "dependencies": {
     "gridsome": "^0.7.0"
   },
