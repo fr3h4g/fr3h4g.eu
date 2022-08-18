@@ -9,19 +9,19 @@
 
     <div class="links">
       <a href="https://github.com/fr3h4g" target="_blank" rel="noopener"
-        ><font-awesome :icon="['fab', 'github']" size="2x" color="white"
+        ><font-awesome :icon="['fab', 'github']" color="white"
       /></a>
 
       <a href="https://twitter.com/fr3h4g" target="_blank" rel="noopener"
-        ><font-awesome :icon="['fab', 'twitter']" size="2x" color="white"
+        ><font-awesome :icon="['fab', 'twitter']" color="white"
       /></a>
 
       <a href="https://linkedin.com/in/fr3h4g" target="_blank" rel="noopener"
-        ><font-awesome :icon="['fab', 'linkedin']" size="2x" color="white"
+        ><font-awesome :icon="['fab', 'linkedin']" color="white"
       /></a>
 
       <a href="https://facebook.com/fr3h4g" target="_blank" rel="noopener"
-        ><font-awesome :icon="['fab', 'facebook']" size="2x" color="white"
+        ><font-awesome :icon="['fab', 'facebook']" color="white"
       /></a>
     </div>
   </Layout>
@@ -40,6 +40,7 @@ h1 {
   font-size: 2.5rem;
 }
 .links a {
+  font-size: 2.5rem;
   margin-right: 1.5rem;
 }
 p {
