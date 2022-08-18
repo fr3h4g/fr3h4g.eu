@@ -1,4 +1,4 @@
-FROM node:current AS builder
+FROM node:16.17.0 AS builder
 WORKDIR /tmp
 COPY . .
 RUN npx browserslist@latest --update-db
