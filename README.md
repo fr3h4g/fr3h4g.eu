@@ -2,14 +2,18 @@
 
 This is my personal webpage for https://fr3h4g.eu
 
-### Develop
+### Development
 
 `yarn install`
 
 `yarn develop`
 
-### Build
+### Building
 
 `yarn install`
 
 `yarn build`
+
+### Running
+
+`docker-compose up`
